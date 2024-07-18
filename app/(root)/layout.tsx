@@ -1,4 +1,5 @@
 import StreamVideoProvider from '@/providers/StreamClientProvider'
+import { Metadata } from 'next';
 import React, { ReactNode } from 'react'
 
 const RootLayout = ({ children}: {children: ReactNode}) => {

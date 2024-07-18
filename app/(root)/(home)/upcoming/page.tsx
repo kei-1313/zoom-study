@@ -1,8 +1,11 @@
+import CallList from '@/components/CallList'
 import React from 'react'
 
 const UpcomingPage = () => {
   return (
-    <div>UpcomingPage</div>
+    <div>
+      <CallList type="upcoming"/>
+    </div>
   )
 }
 
